@@ -1,0 +1,101 @@
+.greetingTitle-active {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    background: linear-gradient(180deg, #00ACFF 0%, rgba(43, 186, 122) 100%);
+}
+
+.greetingTitle { 
+    display: none;
+    opacity: 0;
+}
+
+.greetingTitle__title {
+    height: 50px;
+    width: 230px;
+    border-radius: 25px;
+    font-size: 12px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greetingTitle__btn {
+    margin-top: 25px;
+    height: 34px;
+    width: 180px;
+    border-radius: 17px;
+    font-size: 12px;
+    border: none;
+    background-color: #00A3FF;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greetingTitle__btn:hover {
+    opacity: 0.7;
+}
+
+
+@media(min-width: 430px) {
+    .greetingTitle__title {
+        height: 60px;
+        width: 300px;
+        border-radius: 30px;
+        font-size: 14px;
+    }
+    .greetingTitle__btn {
+        font-size: 14px;
+    }
+}
+
+
+@media(min-width: 744px) {
+    .greetingTitle__title {
+        height: 80px;
+        width: 450px;
+        border-radius: 40px;
+        font-size: 20px;
+    }
+    .greetingTitle__btn {
+        margin-top: 40px;
+        width: 260px;
+        height: 50px;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+}
+
+
+@media(min-width: 1280px) {
+    .greetingTitle__title {
+        font-size: 24px;
+    }
+    .greetingTitle__btn {
+        font-size: 24px;
+    }
+}
+
+
+@media(min-width: 1920px) {
+    .greetingTitle__title {
+        height: 90px;
+        width: 565px;
+        border-radius: 45px;
+        font-size: 32px;
+    }
+    .greetingTitle__btn {
+        width: 300px;
+        height: 60px;
+        border-radius: 30px;
+        font-size: 32px;
+    }
+}
