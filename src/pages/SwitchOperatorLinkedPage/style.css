@@ -1,5 +1,5 @@
 .switchOperatorLinkedPage {
-    height: 568px;
+    height: 1768px;
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
 
 .switchOperatorLinkedPage__column {
     width: 280px;
-    height: 516px;
+    height: 1716px;
     border-radius: 10px 10px 0px 0px;
     background-color: #fff;
     opacity: 0.7;
@@ -28,21 +28,39 @@
     flex-direction: column;
     justify-content: center;
 }
+.switchOperatorLinkedPage__contentCode2 {
+    font-size: 9px;
+    padding-left: 10px;
+    height: 230px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 
 @media(min-widtH: 430px) {
     .switchOperatorLinkedPage {
-        height: 932px;
+        height: 1832px;
         width: 430px;
     }
     .switchOperatorLinkedPage__column {
         width: 390px;
-        height: 880px;
+        height: 1780px;
     }
     .switchOperatorLinkedPage__contentCode1 {
         font-size: 11px;
         height: 115px;
+        width: 360px;
+    }
+    .switchOperatorLinkedPage__contentCode2 {
+        font-size: 11px;
+        height: 300px;
         width: 360px;
     }
 }
@@ -50,16 +68,23 @@
 
 @media(min-widtH: 744px) {
     .switchOperatorLinkedPage {
-        height: 1133px;
+        height: 2133px;
         width: 744px;
     }
     .switchOperatorLinkedPage__column {
         width: 644px;
-        height: 1033px;
+        height: 2033px;
     }
     .switchOperatorLinkedPage__contentCode1 {
         font-size: 15px;
         height: 150px;
+        width: 584px;
+        margin: 20px;
+        padding-left: 20px;
+    }
+    .switchOperatorLinkedPage__contentCode2 {
+        font-size: 15px;
+        height: 390px;
         width: 584px;
         margin: 20px;
         padding-left: 20px;
@@ -69,16 +94,23 @@
 
 @media(min-widtH: 1280px) {
     .switchOperatorLinkedPage {
-        height: 720px;
+        height: 2620px;
         width: 1280px;
     }
     .switchOperatorLinkedPage__column {
         width: 880px;
-        height: 620px;
+        height: 2520px;
     }
     .switchOperatorLinkedPage__contentCode1 {
         font-size: 19px;
         height: 180px;
+        width: 780px;
+        margin: 40px;
+        padding-left: 25px;
+    }
+    .switchOperatorLinkedPage__contentCode2 {
+        font-size: 19px;
+        height: 480px;
         width: 780px;
         margin: 40px;
         padding-left: 25px;
@@ -88,16 +120,23 @@
 
 @media(min-widtH: 1920px) {
     .switchOperatorLinkedPage {
-        height: 1080px;
+        height: 3280px;
         width: 1920px;
     }
     .switchOperatorLinkedPage__column {
         width: 1320px;
-        height: 930px;
+        height: 3130px;
     }
     .switchOperatorLinkedPage__contentCode1 {
         font-size: 24px;
         height: 235px;
+        width: 1180px;
+        margin: 55px;
+        padding-left: 30px;
+    }
+    .switchOperatorLinkedPage__contentCode2 {
+        font-size: 24px;
+        height: 635px;
         width: 1180px;
         margin: 55px;
         padding-left: 30px;

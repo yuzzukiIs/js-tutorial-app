@@ -13,9 +13,7 @@ const IntroductionPage = (props) => {
                 <li className="content__list">{props.introductionPage[5].text}</li>
                 <li className="content__list">{props.introductionPage[6].text}</li>
                 <li className="content__list">{props.introductionPage[7].text}</li>
-                <li className="content__list">{props.introductionPage[8].text}</li>
-                <li className="content__list">{props.introductionPage[9].text}</li>
-                <div className={styles.content}>{props.introductionPage[10].text}</div>
+                <div className={styles.content}>{props.introductionPage[8].text}</div>
             </div>
         </div>
     );

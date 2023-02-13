@@ -1,5 +1,5 @@
-.mapsLinkedPage {
-    height: 650px;
+.queuesLinkedPage {
+    height: 3713px;
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -7,18 +7,18 @@
     justify-content: center;
 }
 
-.mapsLinkedPage__column {
+.queuesLinkedPage__column {
     width: 280px;
-    height: 600px;
+    height: 3661px;
     border-radius: 10px 10px 0px 0px;
     background-color: #fff;
     opacity: 0.7;
 }
 
-.mapsLinkedPage__contentCode1 {
+.queuesLinkedPage__contentCode1 {
     font-size: 9px;
     padding-left: 10px;
-    height: 85px;
+    height: 550px;
     width: 250px;
     margin: 10px;
     border-radius: 5px;
@@ -30,35 +30,35 @@
 }
 
 
-
 @media(min-width: 430px) {
-    .mapsLinkedPage {
-        height: 932px;
+    .queuesLinkedPage {
+        height: 3699px;
         width: 430px;
     }
-    .mapsLinkedPage__column {
+    .queuesLinkedPage__column {
         width: 390px;
-        height: 880px;
+        height: 3647px;
     }
-    .mapsLinkedPage__contentCode1 {
+    .queuesLinkedPage__contentCode1 {
         font-size: 11px;
+        height: 700px;
         width: 360px;
     }
 }
 
 
 @media(min-width: 744px) {
-    .mapsLinkedPage {
-        height: 1133px;
+    .queuesLinkedPage {
+        height: 3950px;
         width: 744px;
     }
-    .mapsLinkedPage__column {
+    .queuesLinkedPage__column {
         width: 644px;
-        height: 1033px;
+        height: 3850px;
     }
-    .mapsLinkedPage__contentCode1 {
+    .queuesLinkedPage__contentCode1 {
         font-size: 15px;
-        height: 95px;
+        height: 820px;
         width: 584px;
         margin: 20px;
         padding-left: 20px;
@@ -67,17 +67,17 @@
 
 
 @media(min-width: 1280px) {
-    .mapsLinkedPage {
-        height: 944px;
+    .queuesLinkedPage {
+        height: 4812px;
         width: 1280px;
     }
-    .mapsLinkedPage__column {
+    .queuesLinkedPage__column {
         width: 880px;
-        height: 844px;
+        height: 4712px;
     }
-    .mapsLinkedPage__contentCode1 {
+    .queuesLinkedPage__contentCode1 {
         font-size: 19px;
-        height: 100px;
+        height: 1050px;
         width: 780px;
         margin: 40px;
         padding-left: 25px;
@@ -86,17 +86,17 @@
 
 
 @media(min-width: 1920px) {
-    .mapsLinkedPage {
-        height: 1215px;
-        width: 1920px;
+    .queuesLinkedPage {
+        height: 6340px;
+        width: 1920pxpx;
     }
-    .mapsLinkedPage__column {
+    .queuesLinkedPage__column {
         width: 1320px;
-        height: 1065px;
+        height: 6190px;
     }
-    .mapsLinkedPage__contentCode1 {
+    .queuesLinkedPage__contentCode1 {
         font-size: 24px;
-        height: 140px;
+        height: 1320px;
         width: 1180px;
         margin: 55px;
         padding-left: 30px;

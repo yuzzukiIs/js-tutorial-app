@@ -14,7 +14,7 @@ const VaraiablesPage = (props) => {
                 <div className={styles.content}>{props.variablesPage[3].text}</div>
                 <NavLink to="/constantsLinkedPage"><button className={styles.link}>{props.variablesPage[4].link}</button></NavLink>
                 <div className={styles.content}>{props.variablesPage[5].text}</div>
-                <a href="https://msiter.ru/tutorials/javascript/js_reserved" target="_blank" rel="noreferrer"><button className={styles.link}>{props.variablesPage[6].link}</button></a>
+                <a href="https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html" target="_blank" rel="noreferrer"><button className={styles.link}>{props.variablesPage[6].link}</button></a>
                 <div className={styles.content}>{props.variablesPage[7].text}</div>
                 <div className={styles.content}>{props.variablesPage[8].title}</div>
                 <div className={styles.content}>{props.variablesPage[9].text}</div>

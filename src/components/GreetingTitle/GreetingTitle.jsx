@@ -10,7 +10,7 @@ const GreetingTitle = () => {
     return (
         <div className={classState ? 'greetingTitle-active' : 'greetingTitle'}>
             <div className="greetingTitle__title">
-                Справочник по JavaScript
+                Справочник по Java
             </div>
             <button className="greetingTitle__btn" onClick={() => setClassState(!classState)}>
                 начать

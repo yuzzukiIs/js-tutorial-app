@@ -1,5 +1,5 @@
 .arraysLinkedPage {
-    height: 713px;
+    height: 2513px;
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
 
 .arraysLinkedPage__column {
     width: 280px;
-    height: 661px;
+    height: 2461px;
     border-radius: 10px 10px 0px 0px;
     background-color: #fff;
     opacity: 0.7;
@@ -18,7 +18,20 @@
 .arraysLinkedPage__contentCode1 {
     font-size: 9px;
     padding-left: 10px;
-    height: 70px;
+    height: 50px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.arraysLinkedPage__contentCode2 {
+    font-size: 9px;
+    padding-left: 10px;
+    height: 130px;
     width: 250px;
     margin: 10px;
     border-radius: 5px;
@@ -31,18 +44,24 @@
 
 
 
+
 @media(min-width: 430px) {
     .arraysLinkedPage {
-        height: 932px;
+        height: 2432px;
         width: 430px;
     }
     .arraysLinkedPage__column {
         width: 390px;
-        height: 880px;
+        height: 2380px;
     }
     .arraysLinkedPage__contentCode1 {
         font-size: 11px;
-        height: 85px;
+        height: 60px;
+        width: 360px;
+    }
+    .arraysLinkedPage__contentCode2 {
+        font-size: 11px;
+        height: 165px;
         width: 360px;
     }
 }
@@ -50,16 +69,23 @@
 
 @media(min-width: 744px) {
     .arraysLinkedPage {
-        height: 1133px;
+        height: 3033px;
         width: 744px;
     }
     .arraysLinkedPage__column {
         width: 644px;
-        height: 1033px;
+        height: 2933px;
     }
     .arraysLinkedPage__contentCode1 {
         font-size: 15px;
-        height: 90px;
+        height: 70px;
+        width: 584px;
+        margin: 20px;
+        padding-left: 20px;
+    }
+    .arraysLinkedPage__contentCode2 {
+        font-size: 15px;
+        height: 230px;
         width: 584px;
         margin: 20px;
         padding-left: 20px;
@@ -69,16 +95,23 @@
 
 @media(min-width: 1280px) {
     .arraysLinkedPage {
-        height: 1156px;
+        height: 4356px;
         width: 1280px;
     }
     .arraysLinkedPage__column {
         width: 880px;
-        height: 1056px;
+        height: 4256px;
     }
     .arraysLinkedPage__contentCode1 {
         font-size: 19px;
-        height: 110px;
+        height: 90px;
+        width: 780px;
+        margin: 40px;
+        padding-left: 25px;
+    }
+    .arraysLinkedPage__contentCode2 {
+        font-size: 19px;
+        height: 270px;
         width: 780px;
         margin: 40px;
         padding-left: 25px;
@@ -88,16 +121,23 @@
 
 @media(min-width: 1920px) {
     .arraysLinkedPage {
-        height: 1467px;
+        height: 5667px;
         width: 1920px;
     }
     .arraysLinkedPage__column {
         width: 1320px;
-        height: 1317px;
+        height: 5517px;
     }
     .arraysLinkedPage__contentCode1 {
         font-size: 24px;
-        height: 120px;
+        height: 110px;
+        width: 1180px;
+        margin: 55px;
+        padding-left: 30px;
+    }
+    .arraysLinkedPage__contentCode2 {
+        font-size: 24px;
+        height: 350px;
         width: 1180px;
         margin: 55px;
         padding-left: 30px;

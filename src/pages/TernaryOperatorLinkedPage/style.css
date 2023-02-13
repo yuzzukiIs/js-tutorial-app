@@ -1,5 +1,5 @@
 .ternaryOperatorLinkedPage {
-    height: 590px;
+    height: 1090px;
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
 
 .ternaryOperatorLinkedPage__column {
     width: 280px;
-    height: 540px;
+    height: 1040px;
     border-radius: 10px 10px 0px 0px;
     background-color: #fff;
     opacity: 0.7;
@@ -18,7 +18,20 @@
 .ternaryOperatorLinkedPage__contentCode1 {
     font-size: 9px;
     padding-left: 10px;
-    height: 120px;
+    height: 130px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ternaryOperatorLinkedPage__contentCode2 {
+    font-size: 9px;
+    padding-left: 10px;
+    height: 30px;
     width: 250px;
     margin: 10px;
     border-radius: 5px;
@@ -33,16 +46,21 @@
 
 @media(min-width: 430px) {
     .ternaryOperatorLinkedPage {
-        height: 932px;
+        height: 1132px;
         width: 430px;
     }
     .ternaryOperatorLinkedPage__column {
         width: 390px;
-        height: 880px;
+        height: 1180px;
     }
     .ternaryOperatorLinkedPage__contentCode1 {
         font-size: 11px;
-        height: 160px;
+        height: 170px;
+        width: 360px;
+    }
+    .ternaryOperatorLinkedPage__contentCode2 {
+        font-size: 11px;
+        height: 30px;
         width: 360px;
     }
 }
@@ -50,16 +68,23 @@
 
 @media(min-width: 744px) {
     .ternaryOperatorLinkedPage {
-        height: 1133px;
+        height: 1533px;
         width: 744px;
     }
     .ternaryOperatorLinkedPage__column {
         width: 644px;
-        height: 1033px;
+        height: 1433px;
     }
     .ternaryOperatorLinkedPage__contentCode1 {
         font-size: 15px;
-        height: 180px;
+        height: 230px;
+        width: 584px;
+        margin: 20px;
+        padding-left: 20px;
+    }
+    .ternaryOperatorLinkedPage__contentCode2 {
+        font-size: 15px;
+        height: 50px;
         width: 584px;
         margin: 20px;
         padding-left: 20px;
@@ -69,16 +94,23 @@
 
 @media(min-width: 1280px) {
     .ternaryOperatorLinkedPage {
-        height: 908px;
+        height: 2108px;
         width: 1280px;
     }
     .ternaryOperatorLinkedPage__column {
         width: 880px;
-        height: 808px;
+        height: 2008px;
     }
     .ternaryOperatorLinkedPage__contentCode1 {
         font-size: 19px;
-        height: 210px;
+        height: 280px;
+        width: 780px;
+        margin: 40px;
+        padding-left: 25px;
+    }
+    .ternaryOperatorLinkedPage__contentCode2 {
+        font-size: 19px;
+        height: 50px;
         width: 780px;
         margin: 40px;
         padding-left: 25px;
@@ -88,16 +120,23 @@
 
 @media(min-width: 1920px) {
     .ternaryOperatorLinkedPage {
-        height: 1213px;
+        height: 2563px;
         width: 1920px;
     }
     .ternaryOperatorLinkedPage__column {
         width: 1320px;
-        height: 1063px;
+        height: 2463px;
     }
     .ternaryOperatorLinkedPage__contentCode1 {
         font-size: 24px;
-        height: 270px;
+        height: 300px;
+        width: 1180px;
+        margin: 55px;
+        padding-left: 30px;
+    }
+    .ternaryOperatorLinkedPage__contentCode2 {
+        font-size: 24px;
+        height: 70px;
         width: 1180px;
         margin: 55px;
         padding-left: 30px;

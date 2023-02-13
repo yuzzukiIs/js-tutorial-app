@@ -17,7 +17,6 @@ import FunctionsPage from './pages/FunctionsPage/FunctionsPage.jsx';
 import VariablesLinkedPage from './pages/VariablesLinkedPage/VariablesLinkedPage.jsx';
 import ConstantsLinkedPage from './pages/ConstantsLinkedPage/ConstantsLinkedPage.jsx';
 import VisibilityAreaLinkedPage from './pages/VisibilityAreaLinkedPage/VisibilityAreaLinkedPage.jsx';
-import DataTypesLinkedPage from './pages/DataTypesLinkedPage/DataTypesLinkedPage.jsx';
 import BitOperationsLinkedPage from './pages/BitOperationsLinkedPage/BitOperationsLinkedPage.jsx';
 import LogicalOperationsLinkedPage from './pages/LogicalOperationsLinkedPage/LogicalOperationsLinkedPage.jsx';
 import TernaryOperatorLinkedPage from './pages/TernaryOperatorLinkedPage/TernaryOperatorLinkedPage.jsx';
@@ -25,8 +24,9 @@ import RegularConditionalOperatorsLinkedPage from './pages/RegularConditionalOpe
 import SwitchOperatorLinkedPage from './pages/SwitchOperatorLinkedPage/SwitchOperatorLinkedPage.jsx';
 import ArraysLinkedPage from './pages/ArraysLinkedPage/ArraysLinkedPage.jsx';
 import ObjectsLinkedPage from './pages/ObjectsLinkedPage/ObjectsLinkedPage.jsx';
-import SetsLinkedPage from './pages/SetsLinkedPage/SetsLinkedPage.jsx';
-import MapsLinkedPage from './pages/MapsLinkedPage/MapsLinkedPage.jsx';
+import StacksLinkedPage from './pages/StacksLinkedPage/StacksLinkedPage.jsx';
+import QueuesLinkedPage from './pages/QueuesLinkedPage/QueuesLinkedPage.jsx';
+import LinkedListsLinkedPage from './pages/LinkedListsLinkedPage/LinkedListsLinkedPage.jsx';
 import FunctionsLinkedPage from './pages/FunctionsLinkedPage/FunctionsLinkedPage.jsx';
 
 import ScrollToTop from './utils/scrollToTop.js';
@@ -54,16 +54,17 @@ function App(props) {
           <Route path="/variablesLinkedPage" element={<VariablesLinkedPage variablesLinkedPage={props.state.variablesLinkedPage} />}></Route>
           <Route path="/constantsLinkedPage" element={<ConstantsLinkedPage constantsLinkedPage={props.state.constantsLinkedPage} />}></Route>
           <Route path="/visibilityAreaLinkedPage" element={<VisibilityAreaLinkedPage visibilityAreaLinkedPage={props.state.visibilityAreaLinkedPage} />}></Route>
-          <Route path="/dataTypesLinkedPage" element={<DataTypesLinkedPage dataTypesLinkedPage={props.state.dataTypesLinkedPage} />}></Route>
           <Route path="/bitOperationsLinkedPage" element={<BitOperationsLinkedPage bitOperationsLinkedPage={props.state.bitOperationsLinkedPage} />}></Route>
           <Route path="/logicalOperationsLinkedPage" element={<LogicalOperationsLinkedPage logicalOperationsLinkedPage={props.state.logicalOperationsLinkedPage} />}></Route>
           <Route path="/ternaryOperatorLinkedPage" element={<TernaryOperatorLinkedPage ternaryOperatorLinkedPage={props.state.ternaryOperatorLinkedPage} />}></Route>
           <Route path="/regularConditionalOperatorsLinkedPage" element={<RegularConditionalOperatorsLinkedPage regularConditionalOperatorsLinkedPage={props.state.regularConditionalOperatorsLinkedPage} />}></Route>
           <Route path="/switchOperatorLinkedPage" element={<SwitchOperatorLinkedPage switchOperatorLinkedPage={props.state.switchOperatorLinkedPage} />}></Route>
           <Route path="/arraysLinkedPage" element={<ArraysLinkedPage arraysLinkedPage={props.state.arraysLinkedPage} />}></Route>
-          <Route path="/objectsLinkedPage" element={<ObjectsLinkedPage objectsLinkedPage={props.state.objectsLinkedPage} />}></Route>
-          <Route path="/setsLinkedPage" element={<SetsLinkedPage setsLinkedPage={props.state.setsLinkedPage} />}></Route>
-          <Route path="/mapsLinkedPage" element={<MapsLinkedPage mapsLinkedPage={props.state.mapsLinkedPage} />}></Route>
+          <Route path="/objectsLinkedPage" element={<ObjectsLinkedPage objectsLinkedPage={props.state.objectsLinkedPage} />}></Route>      
+          <Route path="/stacksLinkedPage" element={<StacksLinkedPage stacksLinkedPage={props.state.stacksLinkedPage} />}></Route>
+          <Route path="/queuesLinkedPage" element={<QueuesLinkedPage queuesLinkedPage={props.state.queuesLinkedPage} />}></Route>
+          <Route path="/linkedListsLinkedPage" element={<LinkedListsLinkedPage linkedListsLinkedPage={props.state.linkedListsLinkedPage} />}></Route>
+
           <Route path="/functionsLinkedPage" element={<FunctionsLinkedPage functionsLinkedPage={props.state.functionsLinkedPage} />}></Route>
         </Routes>
       </Router>
@@ -72,3 +73,6 @@ function App(props) {
 }
 
 export default App;
+
+
+

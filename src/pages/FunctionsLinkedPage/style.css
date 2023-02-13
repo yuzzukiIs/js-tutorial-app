@@ -1,5 +1,5 @@
 .functionsLinkedPage {
-    height: 568px;
+    height: 4468px;
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
 
 .functionsLinkedPage__column {
     width: 280px;
-    height: 516px;
+    height: 4416px;
     border-radius: 10px 10px 0px 0px;
     background-color: #fff;
     opacity: 0.7;
@@ -18,7 +18,20 @@
 .functionsLinkedPage__contentCode1 {
     font-size: 9px;
     padding-left: 10px;
-    height: 205px;
+    height: 145px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.functionsLinkedPage__contentCode2 {
+    font-size: 9px;
+    padding-left: 10px;
+    height: 50px;
     width: 250px;
     margin: 10px;
     border-radius: 5px;
@@ -31,18 +44,24 @@
 
 
 
+
 @media(min-width: 430px) {
     .functionsLinkedPage {
-        height: 932px;
+        height: 4132px;
         width: 430px;
     }
     .functionsLinkedPage__column {
         width: 390px;
-        height: 880px;
+        height: 4080px;
     }
     .functionsLinkedPage__contentCode1 {
         font-size: 11px;
-        height: 280px;
+        height: 180px;
+        width: 360px;
+    }
+    .functionsLinkedPage__contentCode2 {
+        font-size: 11px;
+        height: 60px;
         width: 360px;
     }
 }
@@ -50,16 +69,23 @@
 
 @media(min-width: 744px) {
     .functionsLinkedPage {
-        height: 1133px;
+        height: 4933px;
         width: 744px;
     }
     .functionsLinkedPage__column {
         width: 644px;
-        height: 1073px;
+        height: 4873px;
     }
     .functionsLinkedPage__contentCode1 {
         font-size: 15px;
-        height: 440px;
+        height: 240px;
+        width: 584px;
+        margin: 20px;
+        padding-left: 20px;
+    }
+    .functionsLinkedPage__contentCode2 {
+        font-size: 15px;
+        height: 80px;
         width: 584px;
         margin: 20px;
         padding-left: 20px;
@@ -69,16 +95,23 @@
 
 @media(min-width: 1280px) {
     .functionsLinkedPage {
-        height: 918px;
+        height: 7218px;
         width: 1280px;
     }
     .functionsLinkedPage__column {
         width: 880px;
-        height: 818px;
+        height: 7118px;
     }
     .functionsLinkedPage__contentCode1 {
         font-size: 19px;
-        height: 430px;
+        height: 330px;
+        width: 780px;
+        margin: 40px;
+        padding-left: 25px;
+    }
+    .functionsLinkedPage__contentCode2 {
+        font-size: 19px;
+        height: 100px;
         width: 780px;
         margin: 40px;
         padding-left: 25px;
@@ -88,16 +121,23 @@
 
 @media(min-width: 1920px) {
     .functionsLinkedPage {
-        height: 1228px;
+        height: 9328px;
         width: 1920px;
     }
     .functionsLinkedPage__column {
         width: 1320px;
-        height: 1078px;
+        height: 9178px;
     }
     .functionsLinkedPage__contentCode1 {
         font-size: 24px;
-        height: 570px;
+        height: 390px;
+        width: 1180px;
+        margin: 55px;
+        padding-left: 30px;
+    }
+    .functionsLinkedPage__contentCode2 {
+        font-size: 24px;
+        height: 140px;
         width: 1180px;
         margin: 55px;
         padding-left: 30px;

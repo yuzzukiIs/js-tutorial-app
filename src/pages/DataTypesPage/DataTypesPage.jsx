@@ -18,9 +18,8 @@ const DataTypesPage = (props) => {
                     <li className="content__list">{props.dataTypesPage[7].text}</li>
                     <li className="content__list">{props.dataTypesPage[8].text}</li>
                     <li className="content__list">{props.dataTypesPage[9].text}</li>
-                <NavLink to="/dataTypesLinkedPage"><button className={styles.link}>{props.dataTypesPage[10].link}</button></NavLink>
-                <div className={styles.content}>{props.dataTypesPage[11].title}</div>
-                <div className={styles.content}>{props.dataTypesPage[12].text}</div>
+                <div className={styles.content}>{props.dataTypesPage[10].title}</div>
+                <div className={styles.content}>{props.dataTypesPage[11].text}</div>
             </div>
         </div>
     );

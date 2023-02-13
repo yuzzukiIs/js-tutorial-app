@@ -1,5 +1,5 @@
 .dataTypesPage {
-    height: 810px;
+    height: 1560px;
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
 
 .dataTypesPage__contentColumn {
     width: 280px;
-    height: 760px;
+    height: 1508px;
     border-radius: 10px 10px 0px 0px;
     background-color: #fff;
     opacity: 0.7;
@@ -27,13 +27,13 @@
 
 @media(min-width: 430px) {
     .dataTypesPage {
-        height: 932px;
+        height: 1432px;
         width: 430px;
     }
 
     .dataTypesPage__contentColumn {
         width: 390px;
-        height: 880px;
+        height: 1380px;
     }
 
     .content__list {
@@ -45,13 +45,13 @@
 
 @media(min-width: 744px) {
     .dataTypesPage {
-        height: 1133px;
+        height: 1533px;
         width: 744px;
     }
 
     .dataTypesPage__contentColumn {
         width: 644px;
-        height: 1033px;
+        height: 1433px;
     }
 
     .content__list {
@@ -64,13 +64,13 @@
 
 @media(min-width: 1280px) {
     .dataTypesPage {
-        height: 1090px;
+        height: 1790px;
         width: 1280px;
     }
 
     .dataTypesPage__contentColumn {
         width: 880px;
-        height: 990px;
+        height: 1690px;
     }
 
     .content__list {
@@ -83,13 +83,13 @@
 
 @media(min-width: 1920px) {
     .dataTypesPage {
-        height: 1422px;
+        height: 2122px;
         width: 1920px;
     }
 
     .dataTypesPage__contentColumn {
         width: 1320px;
-        height: 1272px;
+        height: 2172px;
     }
 
     .content__list {
